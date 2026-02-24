@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yritys | Palvelu Kaupunki</title>
+  <meta name="description" content="Tervetuloa – ammattitaitoista palvelua sydämellä. Ota yhteyttä ja varaa aikasi tänään.">
+  <meta property="og:title" content="Yritys | Palvelu Kaupunki">
+  <meta property="og:description" content="Ammattitaitoista palvelua sydämellä.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Yritys",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressCountry": "FI"
+    },
+    "telephone": "",
+    "email": ""
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" aria-label="Päänavigaatio">
+      <a href="#etusivu" class="nav-logo" aria-label="Etusivulle">
+        <span class="logo-text">Yritys</span>
+      </a>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#palvelut" class="nav-link">Palvelut</a></li>
+        <li><a href="#hinnasto" class="nav-link">Hinnasto</a></li>
+        <li><a href="#meista" class="nav-link">Meistä</a></li>
+        <li><a href="#yhteystiedot" class="nav-link">Yhteystiedot</a></li>
+      </ul>
+      <a href="#yhteydenotto" class="btn btn-nav" aria-label="Ota yhteyttä">Varaa aika</a>
+      <button class="hamburger" id="hamburger" aria-label="Avaa valikko" aria-expanded="false" aria-controls="navLinks">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="etusivu" aria-label="Etusivu">
+      <div class="hero-bg">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content container">
+        <p class="hero-eyebrow">Tervetuloa</p>
+        <h1 class="hero-title">Kauneutta &amp; Hyvinvointia<br><em>Sydämellä Tehty</em></h1>
+        <p class="hero-subtitle">Ammattitaitoista palvelua rentoutuneessa ympäristössä. Varaa aikasi ja anna meidän huolehtia sinusta.</p>
+        <div class="hero-ctas">
+          <a href="#yhteydenotto" class="btn btn-primary pulse">Varaa aika nyt</a>
+          <a href="#palvelut" class="btn btn-ghost">Tutustu palveluihin</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item">
+            <span class="trust-icon" aria-hidden="true">★</span>
+            <span>5/5 asiakasarviot</span>
+          </div>
+          <div class="trust-divider" aria-hidden="true"></div>
+          <div class="trust-item">
+            <span class="trust-icon" aria-hidden="true">✓</span>
+            <span>Ammattitaitoinen tiimi</span>
+          </div>
+          <div class="trust-divider" aria-hidden="true"></div>
+          <div class="trust-item">
+            <span class="trust-icon" aria-hidden="true">♥</span>
+            <span>Tyytyväiset asiakkaat</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF STRIP -->
+    <section class="proof-strip" aria-label="Luottamusindikaattorit">
+      <div class="container proof-grid">
+        <div class="proof-item">
+          <strong>100+</strong>
+          <span>Tyytyväistä asiakasta</span>
+        </div>
+        <div class="proof-item">
+          <strong>5★</strong>
+          <span>Keskiarviointi</span>
+        </div>
+        <div class="proof-item">
+          <strong>Helppo</strong>
+          <span>Ajanvaraus</span>
+        </div>
+        <div class="proof-item">
+          <strong>Joustava</strong>
+          <span>Aukioloajat</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PALVELUT -->
+    <section class="section palvelut" id="palvelut" aria-label="Palvelut">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Mitä tarjoamme</p>
+          <h2 class="section-title">Palvelumme</h2>
+          <p class="section-desc">Kattava valikoima laadukkaita palveluita juuri sinulle. Jokainen käynti on ainutlaatuinen kokemus.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">✦</div>
+            <h3>Peruspalvelu</h3>
+            <p>Laadukas peruspalvelu ammattitaitoisesti toteutettuna. Varaa aikasi ja tule nauttimaan.</p>
+            <a href="#yhteydenotto" class="service-link">Varaa aika →</a>
+          </article>
+          <article class="service-card featured" tabindex="0">
+            <div class="service-badge">Suosittu</div>
+            <div class="service-icon" aria-hidden="true">✦</div>
+            <h3>Premium-palvelu</h3>
+            <p>Kattava kokonaisuus parhailla tuotteilla ja menetelmillä. Hemmottele itseäsi.</p>
+            <a href="#yhteydenotto" class="service-link">Varaa aika →</a>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">✦</div>
+            <h3>Erikoispalvelu</h3>
+            <p>Räätälöity palvelu juuri sinulle. Kysy lisää ja suunnitellaan yhdessä sopiva kokonaisuus.</p>
+            <a href="#yhteydenotto" class="service-link">Kysy lisää →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEISTÄ -->
+    <section class="section about" id="meista" aria-label="Meistä">
+      <div class="container about-layout">
+        <div class="about-visual">
+          <div class="about-img-wrapper">
+            <div class="about-img-placeholder" aria-label="Kuva yrityksestä">
+              <span aria-hidden="true">✦</span>
+            </div>
+          </div>
+          <div class="about-accent-box">
+            <p class="about-accent-text">"Jokainen asiakas ansaitsee parasta"</p>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="section-eyebrow">Tutustumme</p>
+          <h2 class="section-title">Meistä</h2>
+          <p class="about-lead">Olemme intohimoinen tiimi, joka haluaa tuoda parhaan mahdollisen kokemuksen jokaiselle asiakkaalle.</p>
+          <p>Vuosien kokemus alalta on opettanut meitä kuuntelemaan asiakkaitamme ja löytämään juuri heille sopivat ratkaisut. Käytämme aina laadukkaita tuotteita ja pidämme osaamisemme ajan tasalla.</p>
+          <ul class="about-list" role="list">
+            <li><span aria-hidden="true">✓</span> Ammattitaitoinen ja koulutettu henkilökunta</li>
+            <li><span aria-hidden="true">✓</span> Laadukkaat tuotteet ja välineet</li>
+            <li><span aria-hidden="true">✓</span> Viihtyisä ja rento ilmapiiri</li>
+            <li><span aria-hidden="true">✓</span> Henkilökohtainen palvelu</li>
+          </ul>
+          <a href="#yhteydenotto" class="btn btn-primary">Tule tutustumaan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HINNASTO -->
+    <section class="section pricing" id="hinnasto" aria-label="Hinnasto">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Hinnoittelu</p>
+          <h2 class="section-title">Hinnasto</h2>
+          <p class="section-desc">Selkeä ja rehellinen hinnoittelu – ei piilomaksuja. Kaikki hinnat sisältävät ALV:n.</p>
+        </div>
+        <div class="pricing-table" role="table" aria-label="Hinnasto">
+          <div class="pricing-row header" role="row">
+            <div role="columnheader">Palvelu</div>
+            <div role="columnheader">Kesto</div>
+            <div role="columnheader">Hinta</div>
+          </div>
+          <div class="pricing-row" role="row">
+            <div role="cell"><strong>Peruspalvelu</strong><span>Sisältää perustyön</span></div>
+            <div role="cell">~30 min</div>
+            <div role="cell" class="price">alk. 35 €</div>
+          </div>
+          <div class="pricing-row highlight" role="row">
+            <div role="cell"><strong>Premium</strong><span>Kattava kokonaisuus</span></div>
+            <div role="cell">~60 min</div>
+            <div role="cell" class="price">alk. 65 €</div>
+          </div>
+          <div class="pricing-row" role="row">
+            <div role="cell"><strong>Erikoispalvelu</strong><span>Räätälöity sinulle</span></div>
+            <div role="cell">~90 min</div>
+            <div role="cell" class="price">alk. 95 €</div>
+          </div>
+        </div>
+        <p class="pricing-note">* Tarkat hinnat riippuvat lopputuloksesta ja työn vaativuudesta. Kysy tarjousta!</p>
+        <div class="gift-card-cta">
+          <div class="gift-card-content">
+            <span class="gift-icon" aria-hidden="true">🎁</span>
+            <div>
+              <strong>Lahjakortti</strong>
+              <p>Anna arvokas hetki lahjaksi. Lahjakortit saatavilla kaikille palveluille.</p>
+            </div>
+          </div>
+          <a href="#yhteydenotto" class="btn btn-outline">Tilaa lahjakortti</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section testimonials" aria-label="Asiakasarviot">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Asiakkaamme kertovat</p>
+          <h2 class="section-title">Arviot</h2>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-label="5 tähteä">★★★★★</div>
+            <p>"Upea palvelu ja ihana tunnelma! Tulen varmasti uudelleen. Suosittelen lämpimästi kaikille."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">M</div>
+              <div>
+                <strong>Maria K.</strong>
+                <span>Vakioasiakas</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card featured">
+            <div class="stars" aria-label="5 tähteä">★★★★★</div>
+            <p>"Löysin viimein juuri oikean paikan! Ammattimainen ote ja henkilökohtainen palvelu tekevät tästä paikasta erityisen."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">A</div>
+              <div>
+                <strong>Anna L.</strong>
+                <span>Tyytyväinen asiakas</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-label="5 tähteä">★★★★★</div>
+            <p>"Erinomainen kokemus alusta loppuun. Henkilökunta on ystävällistä ja tulokset puhtaasti erinomaisia!"</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">S</div>
+              <div>
+                <strong>Sanna P.</strong>
+                <span>Uusi asiakas</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUKIOLOAJAT + SIJAINTI -->
+    <section class="section info-section" aria-label="Yhteystiedot ja aukioloajat">
+      <div class="container info-grid">
+        <div class="info-card">
+          <div class="info-icon" aria-hidden="true">⏰</div>
+          <h2>Aukioloajat</h2>
+          <ul class="hours-list" role="list">
+            <li><span>Maanantai – Perjantai</span><strong>9:00 – 18:00</strong></li>
+            <li><span>Lauantai</span><strong>10:00 – 16:00</strong></li>
+            <li><span>Sunnuntai</span><strong>Suljettu</strong></li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <div class="info-icon" aria-hidden="true">📍</div>
+          <h2>Sijainti</h2>
+          <address>
+            <p>Esimerkkikatu 1<br>00100 Helsinki</p>
+          </address>
+          <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline map-btn" aria-label="Avaa reittiohjeet Google Mapsissa">Reittiohjeet →</a>
+        </div>
+        <div class="info-card">
+          <div class="info-icon" aria-hidden="true">📞</div>
+          <h2>Yhteystiedot</h2>
+          <ul class="contact-list" role="list">
+            <li><a href="tel:+358401234567">040 123 4567</a></li>
+            <li><a href="mailto:info@yritys.fi">info@yritys.fi</a></li>
+          </ul>
+          <div class="social-links" aria-label="Sosiaalinen media">
+            <a href="#" class="social-link" aria-label="Instagram" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- YHTEYDENOTTOLOMAKE -->
+    <section class="section contact-section" id="yhteydenotto" aria-label="Yhteydenottolomake">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-intro">
+            <p class="section-eyebrow">Otetaan yhteyttä</p>
+            <h2 class="section-title">Varaa aikasi</h2>
+            <p>Täytä lomake tai soita meille, niin löydämme sinulle sopivan ajan. Vastaamme yhteydenottoihin yleensä saman päivän aikana.</p>
+            <div class="contact-promises">
+              <div class="promise-item">
+                <span aria-hidden="true">⚡</span>
+                <span>Vastaus saman päivän aikana</span>
+              </div>
+              <div class="promise-item">
+                <span aria-hidden="true">🔒</span>
+                <span>Tietosi pysyvät turvassa</span>
+              </div>
+              <div class="promise-item">
+                <span aria-hidden="true">💬</span>
+                <span>Ei sitovia varauksia</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate aria-label="Yhteydenottolomake">
+            <div class="form-group">
+              <label for="name">Nimesi <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Etunimi Sukunimi" required autocomplete="name" aria-required="true">
+              <span class="field-error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Puhelin <span aria-hidden="true">*</span></label>
+                <input type="tel" id="phone" name="phone" placeholder="040 123 4567" required autocomplete="tel" aria-required="true">
+                <span class="field-error" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Sähköposti</label>
+                <input type="email" id="email" name="email" placeholder="sinä@email.fi" autocomplete="email">
+                <span class="field-error" role="alert" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Palvelu</label>
+              <select id="service" name="service">
+                <option value="">Valitse palvelu...</option>
+                <option value="perus">Peruspalvelu</option>
+                <option value="premium">Premium-palvelu</option>
+                <option value="erikois">Erikoispalvelu</option>
+                <option value="muu">Muu / Kysy lisää</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Viesti</label>
+              <textarea id="message" name="message" rows="4" placeholder="Kerro toiveistasi tai esitä kysymyksiä..."></textarea>
+            </div>
+            <div class="form-group form-privacy">
+              <label class="checkbox-label">
+                <input type="checkbox" id="privacy" name="privacy" required aria-required="true">
+                <span class="checkmark" aria-hidden="true"></span>
+                <span>Hyväksyn tietojeni käsittelyn yhteydenottoa varten <span aria-hidden="true">*</span></span>
+              </label>
+              <span class="field-error" role="alert" aria-live="polite"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" aria-label="Lähetä yhteydenotto">
+              <span class="btn-text">Lähetä viesti</span>
+              <span class="btn-loading" aria-hidden="true" style="display:none">Lähetetään...</span>
+            </button>
+            <div class="form-success" id="formSuccess" role="alert" aria-live="polite" style="display:none">
+              <span aria-hidden="true">✓</span> Kiitos! Otamme sinuun yhteyttä pian.
+            </div>
+            <div class="form-error-msg" id="formError" role="alert" aria-live="polite" style="display:none">
+              Jokin meni pieleen. Yritä uudelleen tai soita meille.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-layout">
+      <div class="footer-brand">
+        <span class="logo-text">Yritys</span>
+        <p>Ammattitaitoista palvelua sydämellä. Tervetuloa!</p>
+      </div>
+      <nav class="footer-nav" aria-label="Alapohjanavigaatio">
+        <h3>Navigaatio</h3>
+        <ul role="list">
+          <li><a href="#palvelut">Palvelut</a></li>
+          <li><a href="#hinnasto">Hinnasto</a></li>
+          <li><a href="#meista">Meistä</a></li>
+          <li><a href="#yhteydenotto">Ota yhteyttä</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h3>Yhteystiedot</h3>
+        <address>
+          <p>Esimerkkikatu 1, Helsinki</p>
+          <p><a href="tel:+358401234567">040 123 4567</a></p>
+          <p><a href="mailto:info@yritys.fi">info@yritys.fi</a></p>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="currentYear"></span> Yritys. Kaikki oikeudet pidätetään.</p>
+        <p class="footer-credit">Sivusto toteutettu <a href="https://nopeatsivut.fi" rel="noopener">Nopeatsivut.fi</a> palvelulla</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
